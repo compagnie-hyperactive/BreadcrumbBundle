@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('lch_components');
+        $rootNode = $treeBuilder->root('lch_breadcrumb');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for

@@ -3,7 +3,7 @@
   "type": "symfony-bundle",
   "description": "Provide event-oriented logic to normalize breadcrumbs, and RFDa/microdata minimal presentation",
   "keywords": ["breadcrumb", "RDFa", "microdata"],
-  "homepage": "https://github.com/compagnie-hyperactive/ComponentsBundle",
+  "homepage": "https://github.com/compagnie-hyperactive/BreadcrumbBundle",
   "license": "MIT",
   "authors": [
     {

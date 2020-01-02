@@ -3,4 +3,4 @@ Provide event-oriented system for breadcrumb generation. Also provides minimal R
 
 ## Installation
 
-`composer require lch/breadcrumb-bundle "^0.0.1"`
+`composer require lch/breadcrumb-bundle "^0.0.2"`
