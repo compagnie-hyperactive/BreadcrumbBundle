@@ -1,0 +1,29 @@
+{
+  "name": "lch/breadcrumb-bundle",
+  "type": "symfony-bundle",
+  "description": "Provide event-oriented logic to normalize breadcrumbs, and RFDa/microdata minimal presentation",
+  "keywords": ["breadcrumb", "RDFa", "microdata"],
+  "homepage": "https://github.com/compagnie-hyperactive/ComponentsBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nicolas BONNIOT",
+      "email": "nicolas@devgiants.fr"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "symfony/framework-bundle": "^4.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8|~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lch\\BreadcrumbBundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
+}
